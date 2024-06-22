@@ -5,7 +5,7 @@ export default function Phototherapy() {
     return (
         <>
             <div>Phototherapy</div>
-            <div>3 + 4 = {calculate(3, 4)}</div>
+            <div>4 + 4 = {calculate(4, 4)}</div>
         </>
     )
   }
