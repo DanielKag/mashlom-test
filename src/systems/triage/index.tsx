@@ -1,5 +1,3 @@
 export default function Triage() {
-    return (
-        <div>Triage</div>
-    )
-  }
+  return <div>Triage</div>
+}
