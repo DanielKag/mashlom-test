@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <>
         <hr/>
-        <div>Footer</div>
+        <div className="bold">Footer</div>
         </>
     )
   }

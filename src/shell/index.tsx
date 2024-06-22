@@ -7,9 +7,9 @@ export default function Shell() {
         <>
             <Header />
             <div id="detail">
-        <Outlet />
-      </div>
-      <Footer />
+              <Outlet />
+            </div>
+           <Footer />
         </>
     )
   }

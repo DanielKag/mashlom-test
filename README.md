@@ -16,7 +16,7 @@ npm run build
 ```
 
 The production code is transpiled and bundled into the `dist` folder. 
-You can run the production code with a local http server, for example
+You can run the production code with: 
 ```
-npx serve dist
+npm run preview
 ```

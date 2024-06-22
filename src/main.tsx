@@ -4,14 +4,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import './index.css'
+
+import './index.css';
+
 import ErrorPage from "./error-page";
 import Shell from './shell';
 import Phototherapy from './systems/phototherapy';
 import Triage from './systems/triage';
 import Protocol from './systems/protocol';
 import Home from './home';
-
 
 const router = createBrowserRouter([
   {
