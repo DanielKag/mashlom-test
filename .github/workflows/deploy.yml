@@ -9,7 +9,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Repository Checkout
+      - name: Renpnpository Checkout
         uses: actions/checkout@v4
 
       - name: Setup NodeJS
@@ -17,9 +17,6 @@ jobs:
         with:
           node-version: 20
           cache: "npm"
-
-      - name: Install Netlify
-        run: npm install netlify-cli@17.10.1 -g
       
       - name: Install Dependencies
         run: npm ci
